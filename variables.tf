@@ -93,3 +93,33 @@ variable "egress_protocol" {
   type = string
 
 }
+
+variable "eip_tag" {
+  type = string
+}
+
+variable "jenkins_ami_id" {
+  description = "The AMI ID for the Jenkins instance"
+  type        = string
+}
+
+variable "instance_tag" {
+  description = "Tag for the Jenkins instance"
+  type        = string
+}
+
+
+variable "instance_type" {
+
+  type = string
+
+}
+
+
+variable "volume_size" {
+  type = string
+}
+
+variable "volume_type" {
+  type = string
+}
